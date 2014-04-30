@@ -1,0 +1,355 @@
+body{
+	margin:0px;
+}
+
+
+.header{
+    width:100%;
+	display: block;
+}
+.maintext2{
+    display:none;
+}
+
+.contact{
+	font-size:15px;
+	padding-top:-15px;
+	width:35%;
+}
+
+.maintext{
+	text-align:center;
+	padding-top:-5px;
+    width:100%;
+    font: 10px;
+}
+
+.image{
+    float:right;  
+    margin-top:-170px;
+    margin-right:11px;
+}
+
+.image2{
+
+    float:left;  
+    margin-top:-120px;
+    margin-right:11px;
+}
+
+.navbar{
+    padding-left:380px;
+    margin-top:-10px;
+}
+
+
+li {
+	font-size:20px;
+	padding: 5px;
+}
+
+ul{
+	margin:0px;
+	-webkit-margin-before: 0em;
+}
+
+.weatherimage{
+    padding:5px;
+    margin-bottom:-15px;
+}
+.container {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.div1 {
+	margin-left:10px;
+	margin-top:40px;
+	padding: 10px;
+	width: 500px;
+	float:left;
+}
+
+.timetableinfo{
+    text-align: center;
+}
+
+.div2 {
+	margin-right:-40px;
+	margin-top:40px;
+	padding: 10px;
+	width: 500px;
+	float:right;
+}
+.joinus{
+    text-align: center;   
+}
+.facebooklogo{
+    float:right;
+    margin-top:-56px;
+    margin-right:120px;
+        
+}
+
+.rights{
+    text-align: center;
+    padding-top: 430px;
+    padding-left: 40px;
+}
+	
+.ferryrunningbar{
+    width:500px;
+    margin-top: 40px;
+    height:80px; 
+}
+
+.runningbarinfo{
+    text-align: center;
+}
+
+.movingword{
+    text-align: center;
+}
+.timetable1{
+	margin: 0 auto;
+    width:100%;
+}
+.timetable2{
+	margin: 0 auto;
+    width:100%;
+}
+.fromport{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height:50px;
+    text-align: center;
+    width:180px;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding-top: 2px;
+}
+
+.fromarran{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height:50px;
+    text-align: center;
+    width:180px;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding-top: 2px;
+}   
+.pricelist{
+    padding-top: 450;
+    padding-bottom: 50;
+}
+.pricelist2{
+    margin: 0 auto;
+    padding-top: 70;
+    padding-bottom: 50;
+}
+.weather{
+    margin-left:8px;
+    margin-top:-400px;
+}
+
+.discountinfo{
+    margin-left:100px;
+    margin-top: 100px;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align:center;
+    margin-left: auto ;
+    margin-right: auto ;
+    height:110px;
+    width:400px;
+    font-family: Verdana;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.weather2{
+    margin-left:-127px;
+    float:left;
+    margin-top:-400px;
+}
+.container2 {
+	width: 80px;
+	margin: 0 auto;
+    float:left;
+}
+
+#owl-example{
+    padding-top:10px;
+    padding-left:50
+}
+
+.checkout{
+    text-align: center;   
+}
+
+.container3 {
+	width: 320px;
+	margin: 0 auto;
+    float:left;
+}
+
+.div3{
+    margin-left:15px;
+	margin-top:0px;
+	width: 300px;
+}
+
+.container5{
+	width: 320px;
+	margin: 0 auto;
+    float:right;
+} 
+
+.container4{
+    width:300px;
+    padding:10px;
+    margin: 0 auto;
+}
+
+.div4{
+    margin-top:40px;
+    width:300px;
+    float:center;
+}
+
+
+.div5{
+    margin-right:3px;
+	margin-top:-330px;
+	width: 300px;
+     
+}
+    
+.container6{
+  width:600px;
+  margin-top:60px;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+.containerheader{
+    width:100%;
+    margin:0 auto;
+}
+
+.containermaintext{
+    width:600px;
+    margin-left: auto ;
+    margin-right: auto ;
+    text-align:center;
+}
+
+.containerimage{
+    margin-top:-50px;
+
+}
+
+.containerimage2{
+    margin:0 auto;
+    
+}
+
+
+@media screen and (min-width: 360px) and (max-width : 768px) {
+    
+.image
+	{
+		width: 100%;
+		margin: 0;
+        text-align: center; 
+}		
+    
+.image2{
+    display:none;   
+}
+  
+.navbar{
+    display:inline;
+    margin:0 0 10 0;
+    display:none;
+      
+}
+   
+.contact{
+    display:none;   
+}
+.header{
+    height:350
+}
+    
+.maintext2{
+    display:
+}
+
+.div1{
+    text-align:center;
+    margin:30 110;
+}
+
+.weatherapp{
+    display:none;   
+}
+    
+.clock{
+    padding-top:60;
+    padding-right:120;
+}
+
+.div2{
+    float:left;
+    text-align:center;
+    margin:0 110;
+    clear:both;
+}
+
+.rights{
+    display:none;   
+}
+ 
+.discountinfo{
+    margin-top:40px;
+}
+    
+.pricelist2{
+    margin-top:-25px;   
+}
+    
+.pricelist{
+    float:left;
+    text-align:center;
+    margin:-400 70;
+    clear:both;
+
+}
+    
+.mojo_gogo{
+    float:left;
+    margin-top: 500px;
+}
+    
+.islandinfo{
+    width:100%;
+}
+    
+.swell{
+    float:left;
+    margin-top:300px;
+    margin-right:500px;
+}
+    
+<div class="m-pikabu-viewport">
+    <!-- the left sidebar -->
+    <div class="m-pikabu-sidebar m-pikabu-left">
+        <!-- left sidebar content -->
+        <h2>Left Sidebar Content</h2>
+    </div>
+</div>
+    
+    
+    
+http://mobify.github.io/pikabu/
