@@ -180,7 +180,7 @@ ul{
 
 #owl-example{
     padding-top:10px;
-    padding-left:50
+    margin:0 auto;
 }
 
 .checkout{
@@ -255,13 +255,18 @@ ul{
 }
 
 
+@media screen and (min-width: 7690px) and (max-width : 1200px) {
+}
+
+
 @media screen and (min-width: 360px) and (max-width : 768px) {
     
 .image
 	{
 		width: 100%;
 		margin: 0;
-        text-align: center; 
+        text-align: center;
+ 
 }		
     
 .image2{
@@ -276,19 +281,20 @@ ul{
 }
    
 .contact{
-    display:none;   
+    text-align:center;
+    display:inline;
+    margin: 0;
 }
 .header{
-    height:350
-}
-    
+    height:365px;
+}  
 .maintext2{
     display:
 }
 
 .div1{
     text-align:center;
-    margin:30 110;
+    margin:30 70;
 }
 
 .weatherapp{
@@ -303,7 +309,7 @@ ul{
 .div2{
     float:left;
     text-align:center;
-    margin:0 110;
+    margin:30 70;
     clear:both;
 }
 
@@ -322,7 +328,7 @@ ul{
 .pricelist{
     float:left;
     text-align:center;
-    margin:-400 70;
+    margin:-420 25;
     clear:both;
 
 }
@@ -341,15 +347,3 @@ ul{
     margin-top:300px;
     margin-right:500px;
 }
-    
-<div class="m-pikabu-viewport">
-    <!-- the left sidebar -->
-    <div class="m-pikabu-sidebar m-pikabu-left">
-        <!-- left sidebar content -->
-        <h2>Left Sidebar Content</h2>
-    </div>
-</div>
-    
-    
-    
-http://mobify.github.io/pikabu/
