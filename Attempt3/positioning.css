@@ -70,6 +70,8 @@ ul{
 	float:left;
 }
 
+
+
 .timetableinfo{
     text-align: center;
 }
@@ -88,7 +90,9 @@ ul{
     float:right;
     margin-top:-56px;
     margin-right:120px;
-        
+}       
+.facebookapp{
+    width:500px;
 }
 
 .rights{
@@ -255,11 +259,10 @@ ul{
 }
 
 
-@media screen and (min-width: 7690px) and (max-width : 1200px) {
-}
 
 
-@media screen and (min-width: 360px) and (max-width : 768px) {
+
+@media screen and (min-width: 360px) and (max-width : 880px) {
     
 .image
 	{
@@ -272,7 +275,12 @@ ul{
 .image2{
     display:none;   
 }
-  
+
+.facebookapp{
+    width:80px;
+}
+    
+ 
 .navbar{
     display:inline;
     margin:0 0 10 0;
@@ -281,37 +289,38 @@ ul{
 }
    
 .contact{
-    text-align:center;
-    display:inline;
-    margin: 0;
+   display: inline;
+    padding-top: 30px;
 }
 .header{
-    height:365px;
+    height:355px;
 }  
 .maintext2{
     display:
-}
-
-.div1{
-    text-align:center;
-    margin:30 70;
 }
 
 .weatherapp{
     display:none;   
 }
     
-.clock{
-    padding-top:60;
-    padding-right:120;
+.container {
+	width: 680px;
+	margin: 0 auto;
 }
+   
+.div1{
+    text-align:center;
+    margin:0;
+    width:100%;
 
+}
 .div2{
     float:left;
     text-align:center;
     margin:30 70;
     clear:both;
 }
+
 
 .rights{
     display:none;   
@@ -346,4 +355,101 @@ ul{
     float:left;
     margin-top:300px;
     margin-right:500px;
+}
+}
+
+@media screen and (min-width: 881px) and (max-width : 1172px) {
+
+    
+.image
+	{
+		width: 100%;
+		margin: 0;
+        text-align: center;
+ 
+}		
+    
+.image2{
+    display:none;   
+}    
+    
+    
+ .contact{
+   display: inline;
+    padding-top: 30px;
+}
+.header{
+    height:355px;
+}   
+    
+    
+    
+ }
+.timetable1{
+
+
+}
+.timetable2{
+} 
+    
+    
+    
+    
+.div2{
+    width: 380px;
+    text-align:center;
+    margin-right:20px;
+
+}
+    
+.div1 {
+	margin-top:40px;
+    margin-left:20px;
+	width: 380px;
+}
+
+    
+.container {
+	width: 880px;
+	margin: 0 auto;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+.movingword{
+    font-size: 10px;
+    font-family: Arial Black;
+}
+    
+    
+.ferryrunningbar{
+    width:360px;
+    margin-top: 40px;
+    height:80px; 
+}
+ 
+.facebookapp{
+    width:380px;
+    margin-right:200px;
+}
+    
+.navbar{
+    display:inline;
+    margin:0 0 10 0;
+    display:none;
+      
+}
+.facebooklogo{
+
+    margin-top:-56px;
+    margin-right:65px;
+        
 }
