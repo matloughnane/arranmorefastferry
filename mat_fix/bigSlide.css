@@ -1,0 +1,119 @@
+.wrapper{
+    position:relative;   
+}
+
+.panel {
+    position: fixed;
+    background-color:#0d3cac;
+    left: -19.625em; /*left or right and the width of your navigation panel*/
+    width: 19.625em; /*should match the above value*/
+}
+
+
+
+.menu-link{
+    display:none;
+}
+
+@media screen and (min-width: 360px) and (max-width : 880px) {
+    
+
+.menu-link {
+  text-decoration: none;
+    display:inline;
+  position: absolute;
+  font-size: 1.5em;
+}
+
+.menu-link:link,
+.menu-link:visited {
+  color: #fff;
+  background: rgba(0, 0, 0, .4);
+  border-radius: 4px;
+  padding: .2em .4em;
+}
+
+.menu-link:hover,
+.menu-link:active {
+  color: #25B89A;
+  background: rgba(0, 0, 0, .6);
+}
+    
+.panel ul {
+
+}
+
+.panel li{
+    background-color: transparent;
+}
+    
+.panel a {
+    display:block;
+    text-decoration: none;
+    color:white;
+}
+
+.panel a:link,
+.panel a:visited {
+
+
+}
+
+.panel a:hover,
+.panel a:active {
+
+}
+}
+
+@media screen and (min-width: 881px) and (max-width : 1172px) {
+    
+
+.menu-link {
+  text-decoration: none;
+    display:inline;
+  position: absolute;
+  font-size: 1.5em;
+}
+
+.menu-link:link,
+.menu-link:visited {
+  color: #fff;
+  background: rgba(0, 0, 0, .4);
+  border-radius: 4px;
+  padding: .2em .4em;
+}
+
+.menu-link:hover,
+.menu-link:active {
+  color: #25B89A;
+  background: rgba(0, 0, 0, .6); 
+}
+    
+.panel ul {
+
+}
+
+.panel li{
+    background-color: transparent;
+}
+    
+.panel a {
+    display:block;
+    text-decoration: none;
+    color:white;
+}
+
+.panel a:link,
+.panel a:visited {
+
+
+}
+
+.panel a:hover,
+.panel a:active {
+
+}
+}
+
+
+
