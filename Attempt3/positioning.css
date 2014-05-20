@@ -1,136 +1,276 @@
-body{
-	margin:0px;
+
+/*COLORS AND STYLES*/
+
+body {
+    font-family: Verdana;
+    margin:0px;
+    font-size: 12px;
+    background-color: #ECF0F1;
+    background-image:url("attempt3/pattern-8bvg.png");
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
 }
 
 
-.header{
-    width:100%;
-	display: block;
-}
-.maintext2{
-    display:none;
-}
-
-.contact{
-	font-size:15px;
-	padding-top:-15px;
-	width:35%;
-}
-
-.maintext{
-	text-align:center;
-	padding-top:-5px;
-    width:100%;
-    font: 10px;
+/*background-image:url("attempt3/pattern-boyu.png");
+}*/
+/*
+============
+HEADER
+============
+*/
+.maintext p {
+    font-size: 1em;
+    margin:0 auto;
+    text-align:center;
+    font-family:Verdana;
+    color:#FFFFFF;
+    text-shadow: 5px 5px 5px #000000;
+    font-weight: bold;
+    font-size:60px;
 }
 
-.image{
-    float:right;  
-    margin-top:-170px;
-    margin-right:11px;
+
+
+.header {
+    color: #ECF0F1;
+    font-family:Verdana;
+    background-color:#0d3cac;   
 }
 
 .image2{
-
-    float:left;  
-    margin-top:-120px;
-    margin-right:11px;
+    float: left;
 }
 
-.navbar{
-    padding-left:380px;
-    margin-top:-10px;
+.image{
+    float: right;
 }
 
+.contact{
+    clear: both;
+    color:FFFFFF;
+    font-family:Verdana;
+    font-weight:bold;
+    text-align:left;
+    font-size: 15px;
+    text-align: center;
+    position:relative;
+    padding-bottom: 10px;
+}
+
+
+/*
+==========
+IMAGES
+==========
+*/
+
+img {
+    max-width: 100%
+}
+
+.image{
+    max-height: 200px;
+}
+
+.image2{
+    max-height: 200px;
+}
 
 li {
+    display: inline;
+    font-family:Verdana;
+    color: #ffffff;
+    background-color: #cc0323;
 	font-size:20px;
 	padding: 5px;
 }
 
-ul{
-	margin:0px;
-	-webkit-margin-before: 0em;
+li:hover {
+    background:#3333FF;
 }
 
-.weatherimage{
-    padding:5px;
-    margin-bottom:-15px;
+
+.navbar{
+    text-align: center;
+    margin-top:-7px;
 }
+
+
+
+/*
+==========================
+DIV 1
+==========================
+*/
+
 .container {
-	width: 1080px;
-	margin: 0 auto;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .div1 {
-	margin-left:10px;
-	margin-top:40px;
-	padding: 10px;
-	width: 500px;
-	float:left;
+    margin-top:40px;
+    padding: 10px;
+	width: 400px;
+    float:left;
+}
+.weatherimage{
+    padding:5px;
+    margin-bottom:-15px;
+    font-family:Verdana;
+    color:#000000;
+    width:300px;
+    margin:0 auto;
+    text-align: center;
+    background-color:white;
+    border:5px solid blue;
+}
+.checkout{
+    font-family: Arial Black;
+     color: #FFFFFF;
+    font-size: 15px;    
+}
+.runningbarinfo{
+    text-align: center;
+}
+.ferryrunningbar{
+    width:400px;
+    margin-top: 40px;
+    height:80px; 
+    background-color: yellow;
+    border-radius: 15px;
 }
 
+.movingword{
+    text-align: center;
+    width:400px;
+    font-size: 30px;
+    font-family: Arial Black;
 
+}
+
+.checkout{
+    text-align: center;   
+}
 
 .timetableinfo{
     text-align: center;
+    font-weight: bold;
+    color:#FFFFFF;
 }
 
+
+
+
+/*
+===========================
+DIV 2
+===========================
+*/
+
+
+
 .div2 {
-	margin-right:-40px;
-	margin-top:40px;
+    margin-top:40px;
 	padding: 10px;
-	width: 500px;
-	float:right;
+	width: 400px;
+    float:right;
+
 }
+
 .joinus{
-    text-align: center;   
+    padding-top:5px;
+    padding-left: 80px; 
+    font-family:Arial Black;
+    color:#fff;
+
 }
 .facebooklogo{
-    float:right;
-    margin-top:-56px;
-    margin-right:120px;
+padding-left: 220px;
+width:42px;
+margin-top:-40px;
 }       
+
 .facebookapp{
-    width:500px;
+    padding-top: 30px; 
+    text-align: center;
+    width:400px;
 }
+
+
+
 
 .rights{
     text-align: center;
     padding-top: 430px;
     padding-left: 40px;
+    color: #000000; 
+    font-family: Arial;   
+    font-size:15px; 
 }
 	
-.ferryrunningbar{
-    width:500px;
-    margin-top: 40px;
-    height:80px; 
+
+
+
+
+
+
+/*
+=============================
+TIMETABLE PAGE
+==============================
+*/
+.div3{
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    width:800px;
+    /*margin:0 auto;*/
+    margin-left: auto ;
+    margin-right: auto ;
 }
 
-.runningbarinfo{
-    text-align: center;
-}
-
-.movingword{
-    text-align: center;
+.div4{
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    width:800px;
+    margin-left: auto ;
+    margin-right: auto ;
+    /*margin-left: 232px;*/
+    height: 390px;
 }
 .timetable1{
-	margin: 0 auto;
-    width:100%;
+    font-family: Arial;
+    padding-left:180px;
 }
 .timetable2{
-	margin: 0 auto;
-    width:100%;
+    font-family: Arial; 
+    padding-left:180px;
+    float:left; 
+    clear:both;
+
 }
 .fromport{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     height:50px;
     text-align: center;
+    margin-bottom: 5px;
     width:180px;
     margin-left: auto ;
     margin-right: auto ;
+    font-size: 20px;
     padding-top: 2px;
+    border-style:solid;
+    font-family: Arial Black;
+    background-color:#0000FF;
+    border-color:#FFFFFF;
+
 }
 
 .fromarran{
@@ -138,24 +278,23 @@ ul{
     border-top-right-radius: 5px;
     height:50px;
     text-align: center;
+    margin-bottom: 5px;
     width:180px;
     margin-left: auto ;
     margin-right: auto ;
+    font-size: 20px;
     padding-top: 2px;
+    border-style:solid;
+    font-family: Arial Black;
+    background-color:#009300;
+    border-color:#FFFFFF;
+
 }   
 .pricelist{
-    padding-top: 450;
+    padding-top: 50;
     padding-bottom: 50;
 }
-.pricelist2{
-    margin: 0 auto;
-    padding-top: 70;
-    padding-bottom: 50;
-}
-.weather{
-    margin-left:8px;
-    margin-top:-400px;
-}
+
 
 .discountinfo{
     margin-left:100px;
@@ -170,16 +309,8 @@ ul{
     font-family: Verdana;
     font-weight: bold;
     border-radius: 10px;
-}
-.weather2{
-    margin-left:-127px;
-    float:left;
-    margin-top:-400px;
-}
-.container2 {
-	width: 80px;
-	margin: 0 auto;
-    float:left;
+    background-color:yellow;
+
 }
 
 #owl-example{
@@ -187,159 +318,140 @@ ul{
     margin:0 auto;
 }
 
-.checkout{
-    text-align: center;   
-}
 
-.container3 {
-	width: 320px;
-	margin: 0 auto;
-    float:left;
-}
+/*
+===================
+EVENTS PAGE
+===================
+*/
 
-.div3{
-    margin-left:15px;
-	margin-top:0px;
-	width: 300px;
-}
+.container2{
 
-.container5{
-	width: 320px;
-	margin: 0 auto;
-    float:right;
-} 
-
-.container4{
-    width:300px;
-    padding:10px;
-    margin: 0 auto;
-}
-
-.div4{
-    margin-top:40px;
-    width:300px;
-    float:center;
-}
-
-
-.div5{
-    margin-right:3px;
-	margin-top:-330px;
-	width: 300px;
-     
-}
-    
-.container6{
-  width:600px;
-  margin-top:60px;
-  margin-left: auto ;
-  margin-right: auto ;
-}
-
-.containerheader{
-    width:100%;
-    margin:0 auto;
-}
-
-.containermaintext{
-    width:600px;
-    margin-left: auto ;
-    margin-right: auto ;
-    text-align:center;
-}
-
-.containerimage{
-    margin-top:-50px;
+    width:1100;
+    width:90%;
 
 }
 
-.containerimage2{
-    margin:0 auto;
-    
+
+
+
+.islandinfo{
+    font-size: 20px;
+    font-family: Arial Black;
+    color:white;
 }
-
-
 
 
 
 @media screen and (min-width: 360px) and (max-width : 880px) {
-    
 .image
-	{
-		width: 100%;
-		margin: 0;
+    {
+        width: 100%;
+        margin: 0;
         text-align: center;
  
-}		
+}       
     
 .image2{
     display:none;   
+}     
+
+.image2{
+
+    display:none;
 }
 
+
 .facebookapp{
-    width:80px;
+    width:400px;
 }
-    
+
+
  
 .navbar{
-    display:inline;
-    margin:0 0 10 0;
-    display:none;
-      
+    display:none;     
 }
    
 .contact{
-   display: inline;
-    padding-top: 30px;
+    display: inline;
+    padding-left:20px;
+    margin-top: 80px;
 }
 .header{
-    height:355px;
+    height:375px;
 }  
-.maintext2{
-    display:
-}
 
-.weatherapp{
-    display:none;   
-}
-    
+
+ 
 .container {
-	width: 680px;
-	margin: 0 auto;
+	max-width: 500px;
+    margin:auto 0;
+
 }
    
 .div1{
+    /*width:80%;*/
+    float:center;
     text-align:center;
-    margin:0;
-    width:100%;
+    padding-top:40px;
+    width: 400px;
+    /*margin-left:40px;*/
+    /*margin-left:150px;*/
 
-}
-.div2{
     float:left;
+}
+
+.div2{
+    float:left; 
+    clear:both;
+    /*not sure which one */
+
     text-align:center;
     margin:30 70;
-    clear:both;
+    margin-left:150px;
+
+}
+
+.joinus{
+    margin-right:180px;
 }
 
 
 .rights{
     display:none;   
 }
+
+/*
+====================================
+TIMETABLE
+====================================
+*/
+
+.div3{
+    max-width:500px;
  
+}
+
+.timetable1{
+
+    max-width:400px;
+    padding-left: 0px;
+}
+
 .discountinfo{
     margin-top:40px;
 }
     
-.pricelist2{
+/*.pricelist2{
     margin-top:-25px;   
 }
-    
+    */
+
 .pricelist{
     float:left;
     text-align:center;
-    margin:-420 25;
     clear:both;
-
+    padding-left:120px;
 }
     
 .mojo_gogo{
@@ -360,7 +472,16 @@ ul{
 
 @media screen and (min-width: 881px) and (max-width : 1172px) {
 
-    
+/*
+=========
+HEADER
+=========
+*/
+
+.header{
+    height:355px;
+}   
+
 .image
 	{
 		width: 100%;
@@ -378,13 +499,7 @@ ul{
    display: inline;
     padding-top: 30px;
 }
-.header{
-    height:355px;
-}   
-    
-    
-    
- }
+
 .timetable1{
 
 
@@ -395,7 +510,7 @@ ul{
     
     
     
-.div2{
+/*.div2{
     width: 380px;
     text-align:center;
     margin-right:20px;
@@ -406,50 +521,50 @@ ul{
 	margin-top:40px;
     margin-left:20px;
 	width: 380px;
-}
+}*/
 
     
-.container {
+/*.container {
 	width: 880px;
 	margin: 0 auto;
-}   
+}   */
     
-    
-    
-    
-    
-    
-    
-    
-
-
+/*
+==========
+DIV 1
+==========
+*/
     
 .movingword{
-    font-size: 10px;
     font-family: Arial Black;
 }
     
     
 .ferryrunningbar{
-    width:360px;
+    width:400px;
     margin-top: 40px;
     height:80px; 
+    background-color: yellow;
+    border-radius: 15px;
 }
- 
+
+.ferrybarinfo{
+    font-family: Arial Black;   
+}
+/*
+==========
+DIV 2
+==========
+
+*/
 .facebookapp{
-    width:380px;
-    margin-right:200px;
+    width:400px;
+
 }
     
 .navbar{
-    display:inline;
-    margin:0 0 10 0;
     display:none;
-      
 }
-.facebooklogo{
-
-    margin-top:-56px;
-    margin-right:65px;
-        
+  /*WHY IS THIS EFFECTING THE MAIN NAVBAR?*/
+      
 }

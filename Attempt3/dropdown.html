@@ -1,0 +1,25 @@
+<html><head><title>whatever</title>
+<script type="text/javascript">
+
+var textBlocks = new Array( 
+'Select from the list to change this box', 
+'Text block two', 
+'Text block three');
+
+function changeText(elemid) { 
+var ind = document.getElementById(elemid).selectedIndex; 
+document.getElementById("display").innerHTML=textBlocks[ind]; 
+} 
+</script>
+
+</head><body>
+
+<form> 
+<select id="whatever" onChange="changeText('whatever');"> 
+<option value="0">Select</option> 
+<option value="1">from Burtonport</option> 
+<option value="2">from Arranmore</option> 
+</select><br> 
+</form> 
+<div id="display">Select from the dropdown list to see your desired timetable</div> 
+</body></html>

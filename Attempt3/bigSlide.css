@@ -22,7 +22,7 @@
   text-decoration: none;
     display:inline;
   position: absolute;
-  font-size: 1.5em;
+  font-size: 2.0em;
 }
 
 .menu-link:link,
@@ -30,7 +30,7 @@
   color: #fff;
   background: rgba(0, 0, 0, .4);
   border-radius: 4px;
-  padding: .2em .4em;
+  padding: .3em .6em;
 }
 
 .menu-link:hover,
@@ -72,7 +72,7 @@
   text-decoration: none;
     display:inline;
   position: absolute;
-  font-size: 1.5em;
+  font-size: 2.0em;
 }
 
 .menu-link:link,
@@ -80,7 +80,7 @@
   color: #fff;
   background: rgba(0, 0, 0, .4);
   border-radius: 4px;
-  padding: .2em .4em;
+  padding: .4em .8em;
 }
 
 .menu-link:hover,
