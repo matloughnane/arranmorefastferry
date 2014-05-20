@@ -1,0 +1,83 @@
+
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+
+// BASIC FORMATTING
+body {
+	font-family: 'Rambla',sans-serif;
+	// background-color: $bkg_color_lighter;
+	margin: 0px;
+}
+
+.bg_image {
+	background-image: url("../img/arranmore_fast_ferry_xl.jpg");
+	background-size: cover;
+	z-index: -100
+}
+
+.bg_overlay {
+	background-color: $bkg_color_overlay;
+	width: 100%;
+	height: 100%;
+	z-index: -10
+}
+
+.content_overlay {
+	margin-top: 5px;
+	background-color: $bkg_color_overlay;
+}
+
+.content_left {
+	margin-top: 5px;
+	background-color: $main_color_halftransparent;
+}
+
+.content_right {
+	margin-top: 5px;
+	background-color: $main_color_opp_halftransparent;
+}
+
+.content {
+	padding: 0px 30px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.footer_text {
+	font-size: 12px;
+}
+
+/*
+==================HEADER====================
+*/
+
+/*
+==================IMAGES NAVIGATION====================
+*/
+
+img {
+	max-width: 100%;
+}
+
+
+/*
+==================TABLET BASICS====================
+*/
+
+@media screen and (max-width: 968px) {
+
+}
+
+/*
+==================MOBILE BASICS====================
+*/
+
+@media screen and (max-width: 640px) {
+	
+}

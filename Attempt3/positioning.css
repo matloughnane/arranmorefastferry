@@ -61,6 +61,12 @@ HEADER
     padding-bottom: 10px;
 }
 
+.content_right {
+}
+
+.content_left {
+}
+
 
 /*
 ==========
@@ -113,17 +119,16 @@ DIV 1
 }
 
 .div1 {
-    margin-top:40px;
+/*    margin-top:40px;*/
     padding: 10px;
 	width: 400px;
-    float:left;
+/*    float:left;*/
 }
 .weatherimage{
     padding:5px;
     margin-bottom:-15px;
     font-family:Verdana;
     color:#000000;
-    width:300px;
     margin:0 auto;
     text-align: center;
     background-color:white;
@@ -131,14 +136,13 @@ DIV 1
 }
 .checkout{
     font-family: Arial Black;
-     color: #FFFFFF;
+    color: #FFFFFF;
     font-size: 15px;    
 }
 .runningbarinfo{
     text-align: center;
 }
 .ferryrunningbar{
-    width:400px;
     margin-top: 40px;
     height:80px; 
     background-color: yellow;
@@ -147,7 +151,6 @@ DIV 1
 
 .movingword{
     text-align: center;
-    width:400px;
     font-size: 30px;
     font-family: Arial Black;
 
@@ -175,10 +178,10 @@ DIV 2
 
 
 .div2 {
-    margin-top:40px;
+/*    margin-top:40px;*/
 	padding: 10px;
 	width: 400px;
-    float:right;
+/*    float:right;*/
 
 }
 
@@ -328,10 +331,16 @@ EVENTS PAGE
 .container2{
 
     width:1100;
-    width:90%;
+    width:100%;
 
 }
-
+.divmojo{
+    float:right;
+}
+/*.mojo_gogo{
+    float:left;
+    padding-left: 50px;
+}*/
 
 
 
@@ -344,6 +353,17 @@ EVENTS PAGE
 
 
 @media screen and (min-width: 360px) and (max-width : 880px) {
+
+/*
+===============
+HEADER
+===============
+*/
+
+.header{
+    height:375px;
+} 
+
 .image
     {
         width: 100%;
@@ -361,60 +381,73 @@ EVENTS PAGE
     display:none;
 }
 
-
-.facebookapp{
-    width:400px;
-}
-
-
- 
-.navbar{
-    display:none;     
-}
-   
+  
 .contact{
     display: inline;
     padding-left:20px;
     margin-top: 80px;
 }
-.header{
-    height:375px;
-}  
-
+ 
+.navbar{
+    display:none;     
+}
 
  
 .container {
-	max-width: 500px;
-    margin:auto 0;
-
+    width:100%;
 }
-   
+
+/*
+===========
+DIV 1
+===========
+*/
 .div1{
-    /*width:80%;*/
-    float:center;
-    text-align:center;
-    padding-top:40px;
-    width: 400px;
-    /*margin-left:40px;*/
-    /*margin-left:150px;*/
-
-    float:left;
+    margin:0 auto;
 }
 
-.div2{
-    float:left; 
-    clear:both;
-    /*not sure which one */
 
-    text-align:center;
-    margin:30 70;
-    margin-left:150px;
+/*
+=============
+.CONTENTLEFT
+=============
+*/
+.content_left{
+    width:400px;
 
 }
 
 .joinus{
     margin-right:180px;
 }
+
+/*
+============
+DIV 2
+============
+*/
+
+
+.div2{
+    margin-top: 40px;
+    margin:0 auto;
+}
+
+
+/*
+===========
+.CONTENT_RIGHT
+============
+*/
+
+.content_right{
+    width:400px;
+}
+
+.facebookapp{
+    width:400px;
+}
+
 
 
 .rights{
@@ -425,7 +458,7 @@ EVENTS PAGE
 ====================================
 TIMETABLE
 ====================================
-*/
+
 
 .div3{
     max-width:500px;
