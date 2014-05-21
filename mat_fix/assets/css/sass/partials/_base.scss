@@ -29,16 +29,19 @@ body {
 .content_overlay {
 	margin-top: 5px;
 	background-color: $bkg_color_overlay;
+	box-shadow: 0px 2px 2px $bkg_dark_overlay;
 }
 
 .content_left {
 	margin-top: 5px;
 	background-color: $main_color_halftransparent;
+	box-shadow: 0px 2px 2px $bkg_dark_overlay;
 }
 
 .content_right {
 	margin-top: 5px;
 	background-color: $main_color_opp_halftransparent;
+	box-shadow: 0px 2px 3px $bkg_dark_overlay;
 }
 
 .content {
