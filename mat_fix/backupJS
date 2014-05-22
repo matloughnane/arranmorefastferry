@@ -1,0 +1,30 @@
+BACKUP JS
+
+
+	// DAYS OF WEEKS WITH CONSOLE LOG
+
+	// if (militaryclockInt < weekDepartArranmoreInt[0]) {
+	// 		nextFerryTime = weekDepartArranmoreInt[0];
+	// 		console.log( weekDepartArranmoreInt[0] );
+	// } else if (militaryclockInt < weekDepartArranmoreInt[1]) {
+	// 		nextFerryTime = weekDepartArranmoreInt[1];
+	// 		console.log( weekDepartArranmoreInt[1] );
+	// } else if (militaryclockInt < weekDepartArranmoreInt[2]) {
+	// 		nextFerryTime = weekDepartArranmoreInt[2];
+	// 		console.log( weekDepartArranmoreInt[2] );
+	// } else if (militaryclockInt < weekDepartArranmoreInt[3]) {
+	// 		nextFerryTime = weekDepartArranmoreInt[3];
+	// 		console.log( weekDepartArranmoreInt[3] );
+	// } else if (militaryclockInt < weekDepartArranmoreInt[4]) {
+	// 		nextFerryTime = weekDepartArranmoreInt[4];
+	// 		console.log( weekDepartArranmoreInt[4] );
+	// } else if (militaryclockInt < weekDepartArranmoreInt[5]) { 
+	// 		nextFerryTime = weekDepartArranmoreInt[5];
+	// 		console.log( weekDepartArranmoreInt[5] );
+	// } else if (militaryclockInt < weekDepartArranmoreInt[6]) {
+	// 		nextFerryTime = weekDepartArranmoreInt[6];
+	// 		console.log( weekDepartArranmoreInt[6] );
+	// } else {
+	// 		nextFerryTime = "No Ferries Running Today";
+	// 		console.log( "No Ferries Running Today" );
+	// };

@@ -14,7 +14,7 @@ $bkg_color_lighter: #EEEEEE;
 $bkg_dark: #BDC3C7;
 // 189, 195, 199
 
-$bkg_color_overlay: rgba(189, 195, 199, 0.65);
+$bkg_color_overlay: rgba(189, 195, 199, 0.75);
 
 $bkg_dark_overlay: rgba(43, 48, 51, 0.3);
 
@@ -23,7 +23,7 @@ $bkg_dark_overlay: rgba(43, 48, 51, 0.3);
 
 $main_color: #3498DB;
 
-$main_color_halftransparent: rgba(52, 152, 219, 0.65);
+$main_color_halftransparent: rgba(52, 152, 219, 0.5);
 
 $main_color_accent: #22A7F0;
 // 34, 167, 240
@@ -37,7 +37,7 @@ $main_color_light: #6BB9F0;
 // Accents - updated - orange
 $main_color_opp: #F27935;
 
-$main_color_opp_halftransparent: rgba(242, 121, 53, 0.65);
+$main_color_opp_halftransparent: rgba(242, 121, 53, 0.5);
 // 242, 121, 53
 
 $main_color_accent_opp: #EB974E;
@@ -60,6 +60,8 @@ $google_highlight: #e78174;
 $transition: all 0.1s;
 
 // =========== variables ============
+
+$shadow: 0px 2px 2px $bkg_dark_overlay;
 
 $outer_ring: 5px;
 

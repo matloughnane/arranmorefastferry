@@ -29,19 +29,19 @@ body {
 .content_overlay {
 	margin-top: 5px;
 	background-color: $bkg_color_overlay;
-	box-shadow: 0px 2px 2px $bkg_dark_overlay;
+	box-shadow: $shadow;
 }
 
-.content_left {
+.content_blue {
 	margin-top: 5px;
 	background-color: $main_color_halftransparent;
-	box-shadow: 0px 2px 2px $bkg_dark_overlay;
+	box-shadow: $shadow;
 }
 
-.content_right {
+.content_orange {
 	margin-top: 5px;
 	background-color: $main_color_opp_halftransparent;
-	box-shadow: 0px 2px 3px $bkg_dark_overlay;
+	box-shadow: $shadow;
 }
 
 .content {
@@ -50,6 +50,10 @@ body {
 
 a {
 	text-decoration: none;
+}
+
+.important_text {
+	font-weight: 700;
 }
 
 .footer_text {

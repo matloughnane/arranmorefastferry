@@ -12,6 +12,12 @@
 
     <script src="assets/js/output.min.js"></script>
 
+<!--     SCRIPT FOR FERRY TIMES -->
+    <script src="assets/js/ferry_times.js"></script>
+
+<!--     SCRIPT FOR CURRENT TIME -->
+    <script src="assets/js/current_time.js"></script>
+
 <!-- FONTS -->
     <link href='http://fonts.googleapis.com/css?family=Rambla:400,700' rel='stylesheet' type='text/css'>
 
@@ -36,10 +42,10 @@
 <!-- END HIDDEN PANEL -->
 
 <div class="grid">
-	<div class="unit one-quarter align-right center-on-mobiles fadeIn">
-		<h1>LOGO</h1>
+	<div class="unit one-third center-on-mobiles fadeIn">
+		<h1 class="align-center">LIVE <br> UPDATE</h1>
 	</div>
-	<div class="unit three-quarters align-center fadeIn">
+	<div class="unit two-thirds align-center fadeIn">
 		<a href="#" class="circle_btn_small"><i class="fa fa-clock-o"></i><div class="text_below">times</div></a>
 		<a href="#" class="circle_btn_small"><i class="fa fa-phone-square"></i><div class="text_below">contact</div></a>
 		<a href="#" class="circle_btn_small"><i class="fa fa-ticket"></i><div class="text_below">tickets</div></a>
@@ -49,12 +55,28 @@
 
 </div>
 
+
+<!-- GRID FOR FERRY TIMES -->
+<div class="grid">
+	<div class="unit half content_orange">
+		<div class="content align-center">
+			<span>Next Ferry Departing Burton Port: </span><span id="nextFerryDepartBurton" class="important_text"></span>
+		</div>
+	</div>
+	<div class="unit half content_blue">
+		<div class="content align-center">
+<!-- 			<span>Current Time: </span><span id="clockbox"></span> <br> -->
+			<span>Next Ferry Departing Arranmore: </span><span id="nextFerryDepartArranmore" class="important_text"></span>
+		</div>
+	</div>
+</div>
+<!-- END GRID FOR FERRY TIMES -->
+
 <div class="grid">
 	<div class="unit whole content_overlay">
 		<div class="content">
-			<h2>About Arranmore Fast Ferry</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque nunc eget erat luctus, id faucibus ligula interdum. Integer condimentum lacus quam, ac tincidunt nisi convallis vel. Nam in eros blandit, rhoncus nulla eget, suscipit libero. Etiam tristique lectus felis, quis tincidunt turpis ultrices quis. Nullam fringilla aliquam sodales. Curabitur pharetra leo eget euismod bibendum. Vestibulum vitae nunc commodo neque placerat hendrerit nec vel purus. Praesent mattis neque augue.</p>
-
+			<h3>About Arranmore Fast Ferry</h3>
+			<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque nunc eget erat luctus, id faucibus ligula interdum. Integer condimentum lacus quam, ac tincidunt nisi convallis vel. Nam in eros blandit, rhoncus nulla eget, suscipit libero. Etiam tristique lectus felis, quis tincidunt turpis ultrices quis. Nullam fringilla aliquam sodales. Curabitur pharetra leo eget euismod bibendum. Vestibulum vitae nunc commodo neque placerat hendrerit nec vel purus. Praesent mattis neque augue.</span>
 			<button class="btn dark_highlight pull-right">Button</button> 
 		</div>
 	</div>
@@ -67,7 +89,6 @@
 			<h4>Contact Details</h4>
 			<p>Etiam tristique lectus felis, quis tincidunt turpis ultrices quis. Nullam fringilla aliquam sodales. Curabitur pharetra leo eget euismod bibendum. Vestibulum vitae nunc commodo neque placerat hendrerit nec vel purus. Praesent mattis neque augue.</p>
 			<h4>Like, Comment Share!</h4>
-			
 			<a class="btn share_btn icon-twitter" target="_blank" href="#"><i class="fa fa-twitter"></i><span class="hidethis_btn">  Twitter</span></a>
         	<a class="btn share_btn icon-facebook" target="_blank" href="#"><i class="fa fa-facebook"></i><span class="hidethis_btn">  Facebook</span></a>
         	<a class="btn share_btn icon-gplus" target="_blank" href="#"><i class="fa fa-google-plus"></i><span class="hidethis_btn">  Google+</span></a>
@@ -78,7 +99,7 @@
 			<h3>Other Things About Arranmore Fast Ferry</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque nunc eget erat luctus, id faucibus ligula interdum. Integer condimentum lacus quam, ac tincidunt nisi convallis vel. Nam in eros blandit, rhoncus nulla eget, suscipit libero.</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque nunc eget erat luctus, id faucibus ligula interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			<button class="btn dark_highlight pull-right"><a href="testing_live_update.html">Button</a></button>
+			<button class="btn dark_highlight pull-right">Button</button>
 		</div>
 	</div>
 </div>
@@ -97,6 +118,17 @@
     $(document).ready(function() {
         $('.menu-link').bigSlide();
     });
+</script>
+
+
+<!-- FERRY TIMES SCRIPT STARTER -->
+
+<script type="text/javascript">
+	function start() {
+	  // GetClock();
+	  GetNextFerry();
+	}	
+	window.onload = start;
 </script>
 
 </body>

@@ -207,6 +207,7 @@
 	z-index: 1;
 	color: $bkg_color_lighter;
 	background: $main_color; //main colour accent
+	box-shadow: $shadow;
 	-webkit-transition: background 0.2s, color 0.2s;
 	-moz-transition: background 0.2s, color 0.2s;
 	transition: background 0.2s, color 0.2s;
