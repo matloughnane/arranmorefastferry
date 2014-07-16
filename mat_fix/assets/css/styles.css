@@ -36,46 +36,45 @@ body {
   background-color: rgba(189, 195, 199, 0.75);
   width: 100%;
   height: 100%;
-  z-index: -10;
 }
 
-/* line 29, sass/partials/_base.scss */
+/* line 28, sass/partials/_base.scss */
 .content_overlay {
   margin-top: 5px;
   background-color: rgba(189, 195, 199, 0.75);
   box-shadow: 0px 2px 2px rgba(43, 48, 51, 0.3);
 }
 
-/* line 35, sass/partials/_base.scss */
+/* line 34, sass/partials/_base.scss */
 .content_blue {
   margin-top: 5px;
   background-color: rgba(52, 152, 219, 0.5);
   box-shadow: 0px 2px 2px rgba(43, 48, 51, 0.3);
 }
 
-/* line 41, sass/partials/_base.scss */
+/* line 40, sass/partials/_base.scss */
 .content_orange {
   margin-top: 5px;
   background-color: rgba(242, 121, 53, 0.5);
   box-shadow: 0px 2px 2px rgba(43, 48, 51, 0.3);
 }
 
-/* line 47, sass/partials/_base.scss */
+/* line 46, sass/partials/_base.scss */
 .content {
   padding: 0px 30px;
 }
 
-/* line 51, sass/partials/_base.scss */
+/* line 50, sass/partials/_base.scss */
 a {
   text-decoration: none;
 }
 
-/* line 55, sass/partials/_base.scss */
+/* line 54, sass/partials/_base.scss */
 .important_text {
   font-weight: 700;
 }
 
-/* line 59, sass/partials/_base.scss */
+/* line 58, sass/partials/_base.scss */
 .footer_text {
   font-size: 12px;
 }
@@ -86,7 +85,7 @@ a {
 /*
 ==================IMAGES NAVIGATION====================
 */
-/* line 71, sass/partials/_base.scss */
+/* line 70, sass/partials/_base.scss */
 img {
   max-width: 100%;
 }
